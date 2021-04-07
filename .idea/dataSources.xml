@@ -7,18 +7,18 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="instagram" uuid="ee8cdc2f-eee5-4ce4-b5b8-f724221d0ede">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="instagram" uuid="5ce8e44d-9eaa-4bb1-924d-f21735a37e08">
-      <driver-ref>mysql.8</driver-ref>
+    <data-source source="LOCAL" name="instagram2" uuid="888e0f3f-08a2-476b-a32b-efea4836ff0f">
+      <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <configured-by-url>true</configured-by-url>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>instagram</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="instagram" uuid="e70f8692-277a-4e92-8613-5ccf0baf7341">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
     </data-source>
   </component>
 </project>
