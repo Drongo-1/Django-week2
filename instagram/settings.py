@@ -58,7 +58,7 @@ else:
 
    }
 
-
+# DATABASE['dafault']=dj_database_url.parse('postgres://username:password@example.com:5432/instagram')
 db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)
 
